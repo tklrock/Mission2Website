@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Random Information</title>
+
+    <!--linking to stylesheets-->
+    <link rel="shortcut icon" href="https://cdn3.iconfinder.com/data/icons/european-cities-landmarks/512/CzechRepublic-OldTownSquarePrague-Prague-landmark-European-512.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header><h1>Thomas Lund</h1></header>
+
+    <!--What I enjoy section-->
+    <h3><i class="fa fa-smile-o"></i>&nbsp;Doing something I enjoy: </h3>
+    <p id="subtitleEnjoy">(petting a soft animal)
+    <img style="width:50%; height: fit-content;" src="img/feeding_buffalo.jpg" />
+    </p>
+
+
+    <!--Class Goals Section--> 
+    <h3><i class="fa fa-thumbs-o-up"></i>&nbsp;Goals for the class</h3>
+    <p>
+        In this IS 413 class I would like to learn the principles of large-scale web development. 
+        While I enjoyed building small, dynamic website in Django, I want to be able to do more. 
+        I want to be able to easily include various website functions in my own personal projects using web programming. 
+        Additionally, I want to learn many of the tools that Visual Studio provides to make development more efficient.
+    </p>
+    <br />
+
+
+    <!--Jobs sections--> 
+    <h3><i class="fa fa-money"></i>&nbsp;Top 3 jobs I'm interested in</h3>
+    <ul>
+        <li>Business Intelligence Engineer</li>
+        <li>Data Analyst</li>
+        <li>Front-end Developer</li>
+    </ul>
+    <br />
+
+
+    <!--Grade Calculator--> 
+    <h3><i class="fa fa-calculator"></i>&nbsp;Grade Calculator</h3>
+    <form>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Score (0-100)</th>
+            </tr>
+            <tr>
+                <td>Assignments</td>
+                <td><input type="number" id="assignmentScore" /></td>
+            </tr>
+            <tr>
+                <td>Group Project</td>
+                <td><input type="number" id="groupProjectScore" /></td>
+            </tr>
+            <tr>
+                <td>Quizzes</td>
+                <td><input type="number" id="quizScore" /></td>
+            </tr>
+            <tr>
+                <td>Exams</td>
+                <td><input type="number" id="examScore" /></td>
+            </tr>
+            <tr>
+                <td>INTEX</td>
+                <td><input type="number" id="intexScore" /></td>
+            </tr>
+        </table>
+        <br />
+        <input id="calculateButton" type="button" value="Calculate Final Grade" />
+    </form>
+    <span id="calculatedGrade"></span>
+
+
+    <!--Linking to scripts-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/Calculator.js"></script>
+</body>
+</html>
